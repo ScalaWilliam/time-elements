@@ -35,7 +35,13 @@ This component is built on the upcoming [Web Component](http://webcomponents.org
 You'll need to use a polyfill to get this feature today. Either the [Polymer](http://www.polymer-project.org/) or [X-Tag](http://www.x-tags.org/) frameworks supply a polyfill, or you can install the standalone [CustomElements](https://github.com/webcomponents/webcomponentsjs) polyfill.
 
 ``` html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.4/CustomElements.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.4/CustomElements.min.js"
+        integrity="sha384-3oyt1nZFPAHcom6CLcowhsTdGxmT3PQaa3q8JVeMEbo7FmosK0LkQ0ImxIBW1nj/"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/time-elements@0.6.1"
+        integrity="sha384-HUOrGljWrEARVyL5U0d0G8B3CX9xSDQCZ1RV/1Te2vn3rmNpiFvvZG+NIuQct7o/"
+        crossorigin="anonymous"
+        type="text/javascript" ></script>
 ```
 
 ## Usage
